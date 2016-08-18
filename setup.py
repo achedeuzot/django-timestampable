@@ -35,6 +35,7 @@ setup(
     description='A simple Django model mixin for timestampable models',
     long_description=long_description,
     url='https://github.com/achedeuzot/django-timestampable',
+    download_url='https://github.com/achedeuzot/django-timestampable/tarball/0.1.0',
     author='Klemen Sever',
     author_email='klemen@achedeuzot.me',
     install_requires=['Django>=1.8'],
@@ -43,10 +44,9 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',  # example license
+        'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        # Replace these appropriately if you are stuck on Python 2.
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Topic :: Internet :: WWW/HTTP',

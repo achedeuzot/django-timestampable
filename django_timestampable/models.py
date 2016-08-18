@@ -8,7 +8,7 @@ from django.dispatch import receiver
 from django.utils.translation import ugettext_lazy
 if django.VERSION >= (1, 9, 0):
     from django.db.models.functions import Now
-    now = Now()
+    now = Now
 else:
     from django.utils.timezone import now
 

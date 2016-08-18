@@ -35,7 +35,7 @@ setup(
     description='A simple Django model mixin for timestampable models',
     long_description=long_description,
     url='https://github.com/achedeuzot/django-timestampable',
-    download_url='https://github.com/achedeuzot/django-timestampable/tarball/0.1.0',
+    download_url='https://github.com/achedeuzot/django-timestampable/tarball/' + get_version(HERE),
     author='Klemen Sever',
     author_email='klemen@achedeuzot.me',
     install_requires=['Django>=1.8'],

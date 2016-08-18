@@ -35,8 +35,6 @@ Quick start
 3. Run `python manage.py makemigrations` then `python manage.py migrate` to add the columns to your models
 in your database.
 
-4. Profit !
-
 Requirements
 ------------
 

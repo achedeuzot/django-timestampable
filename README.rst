@@ -12,10 +12,12 @@ Django Timestampable Models
 Django Timestampable model is a simple enhancement mixin that enables Django models to have a ``created_at``
 and ``updated_at`` field that is always updated.
 
-The main difference between this plugin and the many others out there that do the same, is that
-Django Timestampable Models updated the ``updated_at`` field under any circumstance: fixture loading,
-bulk updates, etc. whereas traditional Timestampable mixins only provide shorthand for ``auto_add`` and
-``auto_add_now`` shortcuts for ``DateTimeField``  s.
+This has been done under many plugins *BUT* the main difference between this plugin and the
+many others out there that do the same, is that Django Timestampable Models update
+the ``updated_at`` field under any circumstance: fixture loading, bulk updates, etc. whereas traditional
+Timestampable mixins only provide shorthand for ``auto_add`` and ``auto_add_now`` shortcuts for ``DateTimeField``  s.
+
+It achieves this by using Django signals.
 
 Quick start
 -----------

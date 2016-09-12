@@ -12,7 +12,7 @@ if django.VERSION >= (1, 9, 0):
 else:
     from django.utils.timezone import now
 
-from app_settings import *
+from .app_settings import *
 
 
 class TimestampableModel(models.Model):

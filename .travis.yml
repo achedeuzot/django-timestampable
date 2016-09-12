@@ -8,7 +8,12 @@ env:
   - DJANGO_VERSION=1.10.1
 install:
   - pip install -q Django==$DJANGO_VERSION
+  - pip install python-coveralls
   - python setup.py -q install
 # command to run tests
 script:
   - python setup.py test
+  - coverage run --source=django_timestampable setup.py test
+  - coverage report
+after_success:
+  - coveralls

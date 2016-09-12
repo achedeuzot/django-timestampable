@@ -5,6 +5,9 @@ Django Timestampable Models
 .. image:: https://travis-ci.org/achedeuzot/django-timestampable.svg?branch=master
     :target: https://travis-ci.org/achedeuzot/django-timestampable.svg?branch=master
 
+.. image:: https://coveralls.io/repos/github/achedeuzot/django-timestampable/badge.svg?branch=master
+    :target: https://coveralls.io/github/achedeuzot/django-timestampable?branch=master
+
 
 Django Timestampable model is a simple enhancement mixin that enables Django models to have a ``created_at``
 and ``updated_at`` field that is always updated.
